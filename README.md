@@ -6,13 +6,24 @@ La commande `npm start` lance un serveur local sur le port `8080`. Il vous suffi
 
 La commande `npm test` permet de lancer les tests unitaires situés dans le dossier `tests`.
 
+# Installation
+Afin de déployer ce projet il faut taper ces commandes en tant qu'administrateur /root.
 
+```
+apt install npm 
+npm install -g http-serve
+npm install -g sass
+npm install -g typescript
+```
 
+# Déploiement
+```
+npm start
+```
 
 # Premier exercice integration HTML
 
 Dans cet exercice vous devrez intégrer la page d'accueil d'Ubilab en suivant les screeshoot suivants : 
-
 
 
 ## Début de page
