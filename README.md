@@ -7,13 +7,11 @@ La commande `npm start` lance un serveur local sur le port `8080`. Il vous suffi
 La commande `npm test` permet de lancer les tests unitaires situés dans le dossier `tests`.
 
 # Installation
-Afin de déployer ce projet il faut taper ces commandes en tant qu'administrateur /root.
+Afin de déployer ce projet il faut taper ces commandes.
 
 ```
-apt install npm 
-npm install -g http-serve
-npm install -g sass
-npm install -g typescript
+sudo apt install npm 
+npm install
 ```
 
 # Déploiement
